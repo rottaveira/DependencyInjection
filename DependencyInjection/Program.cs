@@ -9,9 +9,9 @@ namespace DependencyInjection
     {
         static void Main(string[] args)
         {
-            Ioc.Inicializar();
+            Di.Inicializar();
 
-            var svc = Ioc.Kernel.Get<IServiceTest>();
+            var svc = Di.Kernel.Get<IServiceTest>();
 
             Console.WriteLine(svc.TestMethod());
         }

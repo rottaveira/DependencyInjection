@@ -4,10 +4,11 @@ using Svc;
 using SvcInterface;
 using Dao;
 using DaoInterface;
+using Ninject.Modules;
 
 namespace Injection
 {
-    public class Ioc  
+    public class Di 
     {
         private static StandardKernel _kernel;
 
@@ -44,6 +45,6 @@ namespace Injection
                     .Configure(c => c.InTransientScope());
             });
         }
-
+ 
     }
 }
