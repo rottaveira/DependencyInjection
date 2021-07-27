@@ -1,4 +1,4 @@
-﻿using Injection;
+﻿using NinjectDi;
 using Ninject;
 using SvcInterface;
 using System;

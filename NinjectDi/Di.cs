@@ -6,7 +6,7 @@ using Dao;
 using DaoInterface;
 using Ninject.Modules;
 
-namespace Injection
+namespace NinjectDi
 {
     public class Di 
     {
